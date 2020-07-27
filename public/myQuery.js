@@ -6,7 +6,7 @@
 
 
 $(document).ready(function(){
-	var socket = io("http://172.26.11.50:3000")
+	var socket = io("https://x-message.herokuapp.com/")
 	$('#btnRegister').click(function(){
 		var	userName = $('#userName').val()	
 		socket.emit("client send userName", userName)
