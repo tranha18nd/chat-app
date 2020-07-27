@@ -1,0 +1,39 @@
+body {
+    background-image: linear-gradient(to right, #d7d2cc 0%, #304352 100%);}
+#wrapper{
+    width:600px;
+    margin:auto;
+}
+
+#userName{
+    /* background-color: transparent;
+    border:solid 1px black; */
+}
+
+#left{
+    width: 40%;
+    float: left;
+}
+#right{
+    width: 60%;
+    float: right;
+}
+#left, #right{
+    min-height: 300px;
+}
+
+#boxTitle{border:solid 1px white; 
+    padding:5px; text-align:center;
+    font-weight: bold;
+    background-color: gray;}
+#boxContent{border-top:solid 1px white; 
+    padding: 5px; text-align:center;
+    background-color: gray;
+    }
+
+#sayHi{text-align:right;}
+#listMessages{
+    height: 300px;
+    background-color: white;
+}
+#notice{background-color: white;}

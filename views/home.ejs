@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel = "stylesheet" type = "text/css" href = "layout.css">
+</head>
+<body>
+    <div id = "wrapper">
+        <div id="loginForm">
+            <h3>WHAT'S YOUR NAME?</h3>
+            <input type = "text" id = "userName">
+            <input type = "button" id = "btnRegister" value = "Register">
+        </div>
+        <div id="chatForm">
+            <div id = "left">
+                <div id = "boxTitle">Users Online</div>
+                <div id = "boxContent">
+                </div>
+            </div>
+            <div id = "right">
+                <div id = "sayHi">
+                    Hello <span id = "currentUser"></span>
+                    <input type = "button" id = "btnLogout" value = "logOut">
+                </div>
+                <div id = "listMessages">
+
+                </div>
+                <span id = "notice"></span>
+                <br>
+                <input type = "text" id = "txtMessage">
+                <input type = "button" id = "sendMessage" value = "Send">
+            </div>
+        </div>
+    </div>
+    <script src = "jquery.min.js"></script>
+    <script src = "/socket.io/socket.io.js"></script>
+    <script src = "myQuery.js"></script>
+
+</body>
+</html>
